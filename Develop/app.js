@@ -163,6 +163,16 @@ function addIntern(){
 
 }
 
+function addEngineer(){
+    inquirer.prompt(engineerQuestions).then(function(answers){
+       const engineer = new Engineer (answers.name, answers.id, answers.email, answers.github);
+       teamMembers.push(engineer);
+       employeeSelect();
+   
+    })
+
+}
+
 function renderToHTML(){
     if(!fs.existsSync(OUTPUT_DIR)){
         fs.mkdirSync(OUTPUT_DIR)

@@ -1,0 +1,36 @@
+    body {
+        background-color: #AFDBF0;
+    }
+
+    .card-header {
+        background-color:#93AFD9;
+    }
+
+    .jumbotron {
+        background-color: #A9F8E8;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+    }
+
+ .team-area{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+
+/* body{
+    background-color: #4cc8a5;
+}
+
+.container-fluid {
+background: #4cc8a5;
+}
+
+.jumbotron {
+    border-radius: 50px;
+background: #4cc8a5;
+box-shadow:  20px 20px 60px #41aa8c, 
+             -20px -20px 60px #57e6be;
+
+}
+
